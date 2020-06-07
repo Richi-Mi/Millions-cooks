@@ -4,3 +4,5 @@
 **Boceto:**
 
 ![Boceto](paint.png)
+
+*Gracias por leer Puedes descargarlo usando* `git clone "url"` 
