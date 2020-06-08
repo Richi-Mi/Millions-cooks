@@ -1,0 +1,61 @@
+html{
+    width: 100%;
+    height: 100%;
+    background: url(../img/fondo.jpg) no-repeat;
+    background-attachment: scroll;
+}
+.contenedor{
+    width: 40vw;
+    background: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 3%;
+    transform: translate(780px, 50px);
+}
+.contenedor #icono-comida{
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.contenedor a{
+    margin-left: 190px;
+    color: blue;
+}
+label, input{
+    font-size: 1.4em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f56f21;
+    margin-bottom: 20px;
+}
+.formulario #correo, .formulario #contraseña{
+    width: 100%;
+    outline: none;
+    border: none;
+    transition: .2s all ease-out;
+    border-bottom: 2px solid #9999; 
+}
+.formulario #boton{
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    transition: .2s all ease-out;
+    border: 2px solid orangered;
+    background-color: #f56f21;
+    color: #f5f5f5;
+}
+.formulario #correo:hover, .formulario #contraseña:hover{
+    transition: .3s border linear;
+    border-bottom: 2px solid #f56f21;
+}
+.formulario #correo:focus, .formulario #contraseña:focus{
+    border-radius: 6px;
+    transition: .3s all ease-in-out;
+    box-shadow: 1px 5px 30px 2px #f56f21;
+    border-bottom: 2px solid #f56f21;
+}
+.formulario #boton:hover{
+    transition: .3s all ease-out;
+    background-color: orangered;
+    box-shadow: 2px 1px 30px 2px orangered;
+}
