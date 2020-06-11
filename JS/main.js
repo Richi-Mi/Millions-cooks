@@ -10,3 +10,6 @@ function buscar(evento){
     
     console.log(contenido);
 }
+btn_cooks.addEventListener("click", () => {
+   
+});

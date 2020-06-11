@@ -1,3 +1,44 @@
 body{
-    background: url(../img/fondo.jpg) fixed;
+    background: linear-gradient(to left, #b14c33 20%, rgba(211, 208, 33, 0.863));
+}
+/* ---- Primer contenedor ----*/
+.derecha{
+    float: left;
+    background: linear-gradient(to right, white, wheat);
+    width: 70vw;
+}
+/*---- Segundo contenedor ------*/
+.lateral{
+    float: left;
+    background: #ffffff;
+    width: 20vw;
+    margin: 20px auto 0 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.titulo-footer{
+    text-align: center;
+    color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7em;
+    font-weight: lighter;
+    border-bottom: 2px double #ffc20e;
+}
+.lateral ol{
+    list-style: none;
+}
+.lateral li a{
+   text-decoration: none;
+   color: #999;
+   font-size: 1.2em;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: lighter;
+   line-height: 1.4;
+   letter-spacing: 1px;
+}
+.lateral li a:hover{
+    color: #800008;
+    font-size: 1.3em;
+    transition: .3s all ease-out;
 }
